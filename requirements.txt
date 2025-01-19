@@ -1,4 +1,6 @@
-flask
-yt-dlp
-openai-whisper
-ffmpeg-python
+flask>=3.0.0
+yt-dlp>=2023.12.30
+torch>=2.1.0
+numpy>=1.24.0
+ffmpeg-python>=0.2.0
+git+https://github.com/openai/whisper.git

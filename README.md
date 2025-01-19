@@ -14,7 +14,9 @@ A web application that generates and translates subtitles for YouTube videos. It
 
 Before installation, ensure you have the following:
 
-- Python 3.8 or higher
+- Python 3.11 specifically (required for OpenAI Whisper compatibility)
+  - Other versions may cause dependency conflicts
+  - Python 3.13 is not supported by required dependencies
 - FFmpeg installed on your system
   - For Ubuntu/Debian: `sudo apt-get install ffmpeg`
   - For Arch Linux: `sudo pacman -S ffmpeg`
@@ -31,7 +33,8 @@ Before installation, ensure you have the following:
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
+   # Create virtual environment with Python 3.11 specifically
+   python3.11 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
