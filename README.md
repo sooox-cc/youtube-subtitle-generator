@@ -1,6 +1,6 @@
 # YouTube Subtitle Generator
 
-A web application that generates and translates subtitles for YouTube videos. It can automatically translate subtitles from any language (including Korean) to English, and provides a synchronized viewing experience with the original video.
+A web application that generates and translates subtitles for YouTube videos. It can automatically translate subtitles from any language to English, and provides a synchronized viewing experience with the original video.
 
 ## Features
 
